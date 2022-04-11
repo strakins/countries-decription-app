@@ -50,7 +50,7 @@ const CountryList = () => {
           {filtered.map(
             ({ alpha3Code, name, region, population, capital, flag }) => {
               return (
-                <Link to={`/${name}`} key={alpha3Code}>
+                <Link to={`/${name}`} key={name}>
                   <article className="bg-lightModeElement text-lightModeText dark:bg-darkModeElement dark:text-darkModeText rounded-lg overflow-hidden shadow-sm shadow-darkModeElement">
                     <div className="">
                       <img
