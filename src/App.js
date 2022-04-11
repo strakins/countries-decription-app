@@ -11,8 +11,8 @@ function App() {
      <BrowserRouter>
         < Header />
         <Routes>
-          <Route path="/" element={< CountryList />} />
-          
+          <Route path="/countries-decription-app" exact element={< CountryList />} />
+
           {/* <Route path="*" element={< Error />} /> */}
         </Routes>
      
