@@ -2,8 +2,10 @@ import React from 'react'
 
 const CountryDetails = () => {
   return (
-    <div className='pt-32'>
+    <div>
+        
         CountryDetails
+
     </div>
   )
 }
